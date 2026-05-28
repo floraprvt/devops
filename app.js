@@ -8,3 +8,5 @@ app.get('/', (req, res) => {
 app.listen(5001, () => {
 	console.log('Le serveur ecoute sur le port 5001')
 })
+
+module.exports = app;
